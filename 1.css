@@ -40,8 +40,15 @@ img {
     padding: 100px;
     text-align: right;
     font-size: 2em;
-    color: white;
 }
+
+.text h1 {
+    color: rgb(255, 217, 0);
+}
+.text p {
+    color: #ffffff;
+}
+
 
 button {
     border-radius: 10px;
