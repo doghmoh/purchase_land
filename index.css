@@ -10,7 +10,7 @@ body {
     align-items: center;
     width: 100%;
     /* background-image: url('1.jpg'); */
-    background: linear-gradient(to left, #557fb9, #dee2e7, #ffffff);
+    background: linear-gradient(to left, #557fb9, #4175b4, #ffffff);
 }
 
 .container {
@@ -53,8 +53,9 @@ button {
     border-radius: 10px;
     background-color: #55b993;
     box-shadow: 5px 5px 10px #557fb9;
-    font-size: 1em;
-    padding: 10px;
+    font-size: 0.8em;
+    font-family: 'Almarai';
+    padding: 17px;
     color: white;
     border: 1px solid;
 }
