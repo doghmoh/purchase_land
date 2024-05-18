@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,38 +9,41 @@
     <link href="https://fonts.cdnfonts.com/css/almarai" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <div class="image">
-            <img src="IMG-20231115-WA0000-removebg.png" alt="dashcam">
+            <img src="land.jpg" alt="dashcam">
         </div>
         <div class="text">
-            <h1>ضمان ذهبي</h1>
-            <p>
-                لمدة سنة كاملة اي شي يصير للداش كام تستبدل فورا
+            <h1>فرصة عقارية</h1>
+            <p style="line-height: 60px">
+                ومنطقة قابلة للإستثمار وجديدة بمقابل مستشفى جيزان التخصصي
+                للتواصل مع المالك مباشرة
             </p>
             <button id="whatsappButton">
-            <i class="fab fa-whatsapp fa-lg"></i>
-            تواصل معي
-        </button>
+                <i class="fab fa-whatsapp fa-lg"></i>
+                تواصل معي
+            </button>
         </div>
     </div>
     <script>
-        document.getElementById('whatsappButton').addEventListener('click', function() {
+        document.getElementById('whatsappButton').addEventListener('click', function () {
             // Define the phone number and message you want to send
             var phoneNumber = '+966597207446';  // Replace with the recipient's phone number
-            var message = 'السلام عليكم, ماهي انواع الداش كام التي عندك و كم السعر ؟';
-        
+            var message = 'السلام عليكم، اريد الاستفسار بشأن الأرض ؟';
+
             // Encode the phone number and message for the URL
             var encodedPhoneNumber = encodeURIComponent(phoneNumber);
             var encodedMessage = encodeURIComponent(message);
-        
+
             // Create the WhatsApp message URL
             var whatsappUrl = 'https://api.whatsapp.com/send?phone=' + encodedPhoneNumber + '&text=' + encodedMessage;
-        
+
             // Open the WhatsApp URL in a new tab or window
             window.open(whatsappUrl, '_blank');
         });
-        </script>
+    </script>
 </body>
+
 </html>
